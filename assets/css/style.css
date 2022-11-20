@@ -1,0 +1,81 @@
+@import url('reset.css');
+
+body{
+    background: #F9F9F9;
+
+}
+header{
+    display: inline-flex;
+    width: 100%;
+    height: 56px;
+    background: white;
+    padding: 0 24px;
+    justify-content: space-between;
+}
+
+.nav-button{
+    width: 20px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+
+.vector{
+    width: 20px;
+    height: 0;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    background-color: #000000;
+}
+
+.logo{
+    width: 90px;
+    height: 20px;;
+    object-fit: cover; 
+}
+
+#logo-menu{
+    display: flex;
+    align-items: center;
+    width: 146px;
+    height: 24px;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+.search-bar{
+    margin: 8px 0;
+    display: flex;
+}
+.submit-btn{
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCCCCC
+}
+
+.search-input{
+    width: 348px;
+    height: 40px;
+    background: white;
+    border: 1px solid #CCCCCC
+}
+
+#profile-icons{
+    display: flex;
+    margin: 11px 0;
+    align-items: center;
+    width: 130px;
+    height: 34px;
+    justify-content: space-between;
+}
+
+.profile-image{
+    height: 34px;
+    width: 34px;
+    object-fit: cover;
+    border-radius: 50%;;
+    
+
+}
