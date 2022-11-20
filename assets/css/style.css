@@ -4,8 +4,9 @@ body{
     background: #F9F9F9;
 
 }
+
 header{
-    display: inline-flex;
+    display: flex;
     width: 100%;
     height: 56px;
     background: white;
@@ -31,9 +32,12 @@ header{
     background-color: #000000;
 }
 
+#logo-link{
+    height: 20px; 
+}
 .logo{
     width: 90px;
-    height: 20px;;
+    height: 20px;
     object-fit: cover; 
 }
 
@@ -41,7 +45,7 @@ header{
     display: flex;
     align-items: center;
     width: 146px;
-    height: 24px;
+    height: 20px;
     justify-content: space-between;
     margin: 16px 0;
 }
@@ -76,6 +80,78 @@ header{
     width: 34px;
     object-fit: cover;
     border-radius: 50%;;
+}
+
+main{
+    padding: 28px 15px 15px 75px;
+   
+}
+.video-section{
+    width: 60vw;
+      
+}
+
+.video{
+    width: 60vw;
+    height: 73vh;
+}
+
+.video-title{
+    margin: 16px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.video-data{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
     
+}
+.channel{
+    display: inline-flex;
+    align-items: center;
+}
+
+.channel-description{
+    margin-left: 12px;
+}
+
+#channel-name{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#channel-subs{
+    color: #515151;
+    font-size: .8rem;
+}
+
+.channel-image{
+    height: 42px;
+    width: 42px;
+    object-fit: cover;
+    border-radius: 50%;;
+}
+
+.sub-btn{
+    color:white;
+    background-color: #CC0000;
+    width: 159px;
+    height: 40px;
+    border: 0;
+    border-radius: 2px;
+}
+
+.option{
+    display: inline-flex;
+    align-items: center;
+} 
+
+.option p{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
 
 }
+  
