@@ -5,6 +5,8 @@ body{
 
 }
 
+/* -------------HEADER--------------*/
+
 header{
     display: flex;
     width: 100%;
@@ -20,8 +22,7 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 
 .vector{
@@ -49,10 +50,12 @@ header{
     justify-content: space-between;
     margin: 16px 0;
 }
+
 .search-bar{
     margin: 8px 0;
     display: flex;
 }
+
 .submit-btn{
     width: 57px;
     height: 40px;
@@ -82,8 +85,12 @@ header{
     border-radius: 50%;;
 }
 
+
+/* -------------MAIN--------------*/
 main{
     padding: 28px 15px 15px 75px;
+    display: flex;
+    flex-direction: row;
    
 }
 .video-section{
@@ -98,7 +105,7 @@ main{
 
 .video-title{
     margin: 16px 0;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -118,7 +125,7 @@ main{
 }
 
 #channel-name{
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 600;
 }
 
@@ -150,8 +157,59 @@ main{
 
 .option p{
     margin-left: 10px;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 600;
 
 }
-  
+
+.description p{
+    font-family: Roboto;
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: left;
+    color: #515151;
+}
+
+.description {
+    margin-top: 16px;
+    width: 510px;
+}
+
+.recomendation-section{
+    width: 25vw;
+    margin-left:25px ;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+    
+}
+
+.video-recomendation{
+    height: 90px;
+    display: flex;
+}
+
+.video-thumb{
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.recomendation-data{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recomendation-title{
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.recomendation-description{
+    color: #515151;
+    font-size: .7rem;
+    font-weight: 400;
+
+}
