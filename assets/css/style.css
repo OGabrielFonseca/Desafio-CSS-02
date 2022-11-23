@@ -36,6 +36,7 @@ header{
 #logo-link{
     height: 20px; 
 }
+
 .logo{
     width: 90px;
     height: 20px;
@@ -85,17 +86,21 @@ header{
     border-radius: 50%;;
 }
 
-
 /* -------------MAIN--------------*/
+
 main{
     padding: 28px 15px 15px 75px;
     display: flex;
     flex-direction: row;
-   
 }
+
 .video-section{
-    width: 60vw;
-      
+    width: 60vw;    
+    gap: 16px;
+}
+
+.video-section>div{
+    margin-top: 16px;    
 }
 
 .video{
@@ -103,7 +108,7 @@ main{
     height: 73vh;
 }
 
-.video-title{
+.video-title h1{
     margin: 16px 0;
     font-size: 1.2rem;
     font-weight: 600;
@@ -112,9 +117,9 @@ main{
 .video-data{
     height: 40px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
+
 .channel{
     display: inline-flex;
     align-items: center;
@@ -159,11 +164,14 @@ main{
     margin-left: 10px;
     font-size: .8rem;
     font-weight: 600;
-
+}
+.vizualization p{
+    font-size: .8rem;
+    font-weight: 600;
+    text-align: left;
 }
 
 .description p{
-    font-family: Roboto;
     font-size: .8rem;
     font-weight: 400;
     text-align: left;
@@ -171,7 +179,6 @@ main{
 }
 
 .description {
-    margin-top: 16px;
     width: 510px;
 }
 
@@ -181,7 +188,6 @@ main{
     display: flex;
     flex-flow: column nowrap;
     gap: 16px;
-    
 }
 
 .video-recomendation{
@@ -211,5 +217,4 @@ main{
     color: #515151;
     font-size: .7rem;
     font-weight: 400;
-
 }
